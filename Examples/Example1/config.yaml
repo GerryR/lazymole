@@ -1,0 +1,33 @@
+# Grid parameters
+grid:
+    dimensions:
+        nx: 200  # Number of cells in x direction
+        ny: 100  # Number of cells in y direction
+        nz: 1    # Number of cells in z direction
+    cell size:
+        dx: 1.0  # Cell size in x direction
+        dy: 1.0  # Cell size in y direction
+        dz: 1.0  # Cell size in z direction
+    refinement:
+        refx: 1  # Refinement in x direction
+        refy: 1  # Refinement in y direction
+        refz: 1  # Refinement in z direction
+
+# Input parameters
+input:
+    field:
+        file: field.dat  # File name relative to root directory with K values
+        skip: 0          # Number of lines to skip
+        log: true        # True if file contains the logK values
+    source:
+        file: source1.dat  # File name relative to root directory with source ids
+    target:
+        file: target1.dat  # File name relative to root directory with target ids
+
+# Output parameters
+output:
+    resistance:
+        file: hres1.dat  # Output name relative to root directory where resistance map is saved
+    path:
+        file: path1.dat  # Output name relative to root directory where least resistance path is saved
+
