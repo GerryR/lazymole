@@ -4,17 +4,17 @@ Compute the minimum hydraulic resistance (MHR) and least resistance path (LRP)
 in heterogeneous porous media.
 
 ## How to run Lazy Mole
-1. Download the `lazyMole.exe` executable from [here](https://github.com/GerryR/lazymole/releases)
+1. Download the `lazymole.exe` executable from [here](https://github.com/GerryR/lazymole/releases)
 1. Open the Windows Command Prompt
-2. Change directory to the folder containing the `lazyMole.exe` file
-3. Run the executable: `lazyMole.exe path/to/root`
+2. Change directory to the folder containing the `lazymole.exe` file
+3. Run the executable: `lazymole.exe path/to/root`
 
-You can also add the folder containing the `lazyMole.exe` file to the
+You can also add the folder containing the `lazymole.exe` file to the
 `PATH` variable:
 1. Go to System (Control Panel)
 2. Advanced System Settings
 3. Environment Variables
-Now you can call `lazyMole.exe` from all the folders.
+Now you can call `lazymole.exe` from all the folders.
 
 ## Input
 Create a folder with the input files.
